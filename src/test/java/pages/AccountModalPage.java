@@ -10,7 +10,8 @@ import org.openqa.selenium.WebDriver;
 public class AccountModalPage extends BasePage {
     public static final By NEW_ACCOUNT_TITLE = By.xpath("//h2[contains(@class, 'inlineTitle')]");
 
-    public AccountModalPage(WebDriver driver) {
+    public AccountModalPage(WebDriver driver)
+    {
         super(driver);
     }
 
@@ -31,9 +32,9 @@ public class AccountModalPage extends BasePage {
         new Input(driver, "Shipping State/Province").write(account.getShippingState_Province());
         new Input(driver, "Shipping Zip/Postal Code").write(account.getShippingZip_PostalCode());
         new Input(driver, "Shipping Country").write(account.getShippingCountry());
-        new Textarea(driver, "Description").write(account.getDescription());
-        new Textarea(driver, "Billing Street").write(account.getBillingStreet());
-        new Textarea(driver, "Shipping Street").write(account.getShippingStreet());
+        new Textarea(driver, "Description").writeTextareaLocator(account.getDescription());
+        new Textarea(driver, "Billing Street").writeTextareaLocator(account.getBillingStreet());
+        new Textarea(driver, "Shipping Street").writeTextareaLocator(account.getShippingStreet());
         return clickSave();
 
 

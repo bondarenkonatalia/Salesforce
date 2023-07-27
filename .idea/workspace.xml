@@ -4,7 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="747b6282-7849-4bcb-a81e-0d5bae05c558" name="Changes" comment="с изменениями" />
+    <list default="true" id="747b6282-7849-4bcb-a81e-0d5bae05c558" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/REDME.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/models/Contact.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/ContactDetailsPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/ContactListPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/ContactModalPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/ContactTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/elements/DropDown.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/elements/DropDown.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/elements/Input.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/elements/Input.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/elements/Textarea.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/elements/Textarea.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/AccountModalPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/AccountModalPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/elements/DropDown.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/elements/DropDown.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/elements/Input.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/elements/Input.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/elements/Textarea.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/elements/Textarea.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/AccountModalPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/AccountModalPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/BaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/BaseTest.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,6 +37,19 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="180ae1cf-aac6-471d-817b-c3f84a7b9dea" />
+        <option name="url" value="https://github.com/bondarenkonatalia/Salesforce.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -39,7 +70,7 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
-  <component name="RunManager" selected="TestNG.AccountTest">
+  <component name="RunManager" selected="TestNG.ContactTest.contactMustBeCreated">
     <configuration name="AccountTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Salesforce" />
       <extension name="coverage">
@@ -75,6 +106,41 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ContactTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Salesforce" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.ContactTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ContactTest.contactMustBeCreated" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Salesforce" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.ContactTest" />
+      <option name="METHOD_NAME" value="contactMustBeCreated" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LoginTest.loginWithValidData" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Salesforce" />
       <extension name="coverage">
@@ -95,9 +161,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.ContactTest.contactMustBeCreated" />
+        <item itemvalue="TestNG.ContactTest" />
         <item itemvalue="TestNG.AccountTest" />
-        <item itemvalue="TestNG.AccountTest.accountShouldBeCreated" />
         <item itemvalue="TestNG.LoginTest.loginWithValidData" />
+        <item itemvalue="TestNG.AccountTest.accountShouldBeCreated" />
       </list>
     </recent_temporary>
   </component>
@@ -117,7 +185,14 @@
       <option name="project" value="LOCAL" />
       <updated>1689942748673</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="с изменениями">
+      <created>1689943203869</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1689943203869</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -134,5 +209,16 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="с изменениями" />
     <option name="LAST_COMMIT_MESSAGE" value="с изменениями" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/tests/ContactTest.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
